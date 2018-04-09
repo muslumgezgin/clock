@@ -67,9 +67,9 @@ $(document).ready(function () {
 
         $("#minus5Clock").click(function () {
             
-            if(count>5){
+            if(count>1){
 
-                count -= 5;
+                count -= 1;
                 $('#num').html(count);
                 console.log(count);
             }
@@ -77,7 +77,7 @@ $(document).ready(function () {
 
     $("#add5Clock").click(function () {
         
-            count += 5;
+            count += 1;
             $('#num').html(count);
             console.log(count);
         
@@ -85,16 +85,16 @@ $(document).ready(function () {
 
     $("#minus5Break").click(function () {
 
-        if (breakTime > 5) {
+        if (breakTime > 1) {
 
-            breakTime -= 5;
+            breakTime -= 1;
             $('#breakNum').html(breakTime);
     
         }
     });
 
     $("#add5Break").click(function () {
-        breakTime += 5;
+        breakTime += 1;
         $('#breakNum').html(breakTime);
  
     });
